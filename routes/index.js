@@ -10,4 +10,8 @@ router.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
+router.get('/today', function (req, res) {
+  res.send('il fait beau');
+});
+
 module.exports = router;
